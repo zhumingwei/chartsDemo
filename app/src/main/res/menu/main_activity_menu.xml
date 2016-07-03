@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/main_menu_column"
+        app:showAsAction="never"
+        android:title="柱状图表"
+        ></item>
+    <item android:id="@+id/main_menu_commbo_column_line"
+        app:showAsAction="never"
+        android:title="柱状线性组合图表"
+        ></item>
+    <item
+        android:id="@+id/main_menu_line"
+        android:title="线性组合图表"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/main_menu_bubble"
+        android:title="泡泡图标"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:id="@+id/main_menu_line_column_dependence"
+        android:title="线性柱状依赖组合图表"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/main_menu_pie_chart"
+        android:title="饼状图表"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/main_menu_preview_column_chart"
+        android:title="预览柱状图表"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/main_menu_preview_line_chart"
+        android:title="预览线性图表"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/main_menu_speed_chart"
+        android:title="speed图表"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/main_menu_tempo_chart"
+        android:title="tempo图表"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/main_menu_viewpager_charts"
+        android:title="viewpager图表"
+        app:showAsAction="never"></item>
+
+
+
+    <!--<item-->
+        <!--android:id="@+id/main_menu_good_bad"-->
+        <!--android:title="good_bad"-->
+        <!--app:showAsAction="never"-->
+
+        <!--&gt;</item>-->
+
+</menu>
