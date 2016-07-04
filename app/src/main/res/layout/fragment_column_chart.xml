@@ -4,10 +4,10 @@
     android:layout_height="match_parent"
     >
 
-    <lecho.lib.hellocharts.view.ColumnChartView
+    <cn.david.zhumingwei.mylibrary.view.ColumnChartView
         android:id="@+id/chart"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
-    </lecho.lib.hellocharts.view.ColumnChartView>
+    </cn.david.zhumingwei.mylibrary.view.ColumnChartView>
 
 </FrameLayout>

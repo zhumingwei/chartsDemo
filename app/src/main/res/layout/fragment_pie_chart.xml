@@ -8,10 +8,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="lecho.lib.hellocharts.samples.PieChartActivity$PlaceholderFragment" >
 
-    <lecho.lib.hellocharts.view.PieChartView
+    <cn.david.zhumingwei.mylibrary.view.PieChartView
         android:id="@+id/chart"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
-    </lecho.lib.hellocharts.view.PieChartView>
+    </cn.david.zhumingwei.mylibrary.view.PieChartView>
 
 </RelativeLayout>

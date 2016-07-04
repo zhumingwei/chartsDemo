@@ -27,6 +27,9 @@
         <activity android:name=".activity.TempoChartActivity"></activity>
         <activity android:name=".activity.ViewPagerChartsActivity"></activity>
         <activity android:name=".activity.BubbleChartActivity"></activity>
+        <activity android:name=".activity.MyColumnChartActivity">
+
+        </activity>
 
     </application>
 

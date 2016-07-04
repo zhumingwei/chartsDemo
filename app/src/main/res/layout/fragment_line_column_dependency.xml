@@ -9,12 +9,12 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     >
 
-    <lecho.lib.hellocharts.view.LineChartView
+    <cn.david.zhumingwei.mylibrary.view.LineChartView
         android:id="@+id/chart_top"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" >
-    </lecho.lib.hellocharts.view.LineChartView>
+    </cn.david.zhumingwei.mylibrary.view.LineChartView>
 
     <View
         android:layout_width="match_parent"
@@ -23,11 +23,11 @@
         android:layout_marginTop="8dp"
         android:background="@android:color/darker_gray" />
 
-    <lecho.lib.hellocharts.view.ColumnChartView
+    <cn.david.zhumingwei.mylibrary.view.ColumnChartView
         android:id="@+id/chart_bottom"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1" >
-    </lecho.lib.hellocharts.view.ColumnChartView>
+    </cn.david.zhumingwei.mylibrary.view.ColumnChartView>
 
 </LinearLayout>

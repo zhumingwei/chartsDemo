@@ -1,22 +1,14 @@
 package cn.david.zhumingwei.chartsdemo.activity;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import cn.david.zhumingwei.chartsdemo.R;
-import lecho.lib.hellocharts.model.Axis;
-import lecho.lib.hellocharts.model.Column;
-import lecho.lib.hellocharts.model.ColumnChartData;
-import lecho.lib.hellocharts.model.SubcolumnValue;
-import lecho.lib.hellocharts.util.ChartUtils;
-import lecho.lib.hellocharts.view.ColumnChartView;
-import lecho.lib.hellocharts.view.LineChartView;
+import cn.david.zhumingwei.mylibrary.model.ColumnChartData;
+import cn.david.zhumingwei.mylibrary.view.ColumnChartView;
 
 public class MainActivity extends AppCompatActivity {
     ColumnChartView lineChartView;
@@ -81,6 +73,10 @@ public class MainActivity extends AppCompatActivity {
             case R.id.main_menu_bubble:
                 startActivity(new Intent(this, BubbleChartActivity.class));
                 break;
+            case R.id.main_menu_mycolumn_charts:
+                startActivity(new Intent(this,MyColumnChartActivity.class));
+                break;
+
         }
         return true;
     }

@@ -1,8 +1,8 @@
 package cn.david.zhumingwei.chartsdemo.activity;
 
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -15,14 +15,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.david.zhumingwei.chartsdemo.R;
-import lecho.lib.hellocharts.gesture.ZoomType;
-import lecho.lib.hellocharts.listener.ColumnChartOnValueSelectListener;
-import lecho.lib.hellocharts.model.Axis;
-import lecho.lib.hellocharts.model.Column;
-import lecho.lib.hellocharts.model.ColumnChartData;
-import lecho.lib.hellocharts.model.SubcolumnValue;
-import lecho.lib.hellocharts.util.ChartUtils;
-import lecho.lib.hellocharts.view.ColumnChartView;
+import cn.david.zhumingwei.mylibrary.gesture.ZoomType;
+import cn.david.zhumingwei.mylibrary.listener.ColumnChartOnValueSelectListener;
+import cn.david.zhumingwei.mylibrary.model.Axis;
+import cn.david.zhumingwei.mylibrary.model.Column;
+import cn.david.zhumingwei.mylibrary.model.ColumnChartData;
+import cn.david.zhumingwei.mylibrary.model.SubcolumnValue;
+import cn.david.zhumingwei.mylibrary.util.ChartUtils;
+import cn.david.zhumingwei.mylibrary.view.ColumnChartView;
 
 public class ColumnChartActivity extends AppCompatActivity {
 
@@ -162,6 +162,8 @@ public class ColumnChartActivity extends AppCompatActivity {
         }
 
         private void generateDefaultData() {
+
+
             int numSubcolumns = 1;
             int numColumns = 8;
             // Column can have many subcolumns, here by default I use 1 subcolumn in each of 8 columns.
@@ -433,7 +435,8 @@ public class ColumnChartActivity extends AppCompatActivity {
         }
 
         /**
-         * To animate values you have to change targets values and then call {@link Chart#startDataAnimation()}
+         * To animate values you have to change targets values and then call {@link
+//         * Chart#startDataAnimation()}
          * method(don't confuse with View.animate()).
          */
         private void prepareDataAnimation() {

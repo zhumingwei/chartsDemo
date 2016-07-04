@@ -45,6 +45,10 @@
         android:id="@+id/main_menu_viewpager_charts"
         android:title="viewpager图表"
         app:showAsAction="never"></item>
+    <item
+        android:id="@+id/main_menu_mycolumn_charts"
+        android:title="我的柱状图表"
+        app:showAsAction="never"></item>
 
 
 

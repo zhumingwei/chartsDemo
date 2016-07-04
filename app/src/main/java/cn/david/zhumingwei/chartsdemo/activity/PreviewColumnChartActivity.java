@@ -14,16 +14,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.david.zhumingwei.chartsdemo.R;
-import lecho.lib.hellocharts.gesture.ZoomType;
-import lecho.lib.hellocharts.listener.ViewportChangeListener;
-import lecho.lib.hellocharts.model.Axis;
-import lecho.lib.hellocharts.model.Column;
-import lecho.lib.hellocharts.model.ColumnChartData;
-import lecho.lib.hellocharts.model.SubcolumnValue;
-import lecho.lib.hellocharts.model.Viewport;
-import lecho.lib.hellocharts.util.ChartUtils;
-import lecho.lib.hellocharts.view.ColumnChartView;
-import lecho.lib.hellocharts.view.PreviewColumnChartView;
+import cn.david.zhumingwei.mylibrary.gesture.ZoomType;
+import cn.david.zhumingwei.mylibrary.listener.ViewportChangeListener;
+import cn.david.zhumingwei.mylibrary.model.Axis;
+import cn.david.zhumingwei.mylibrary.model.Column;
+import cn.david.zhumingwei.mylibrary.model.ColumnChartData;
+import cn.david.zhumingwei.mylibrary.model.SubcolumnValue;
+import cn.david.zhumingwei.mylibrary.model.Viewport;
+import cn.david.zhumingwei.mylibrary.util.ChartUtils;
+import cn.david.zhumingwei.mylibrary.view.ColumnChartView;
+import cn.david.zhumingwei.mylibrary.view.PreviewColumnChartView;
 
 public class PreviewColumnChartActivity extends ActionBarActivity {
 

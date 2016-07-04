@@ -2,7 +2,6 @@ package cn.david.zhumingwei.chartsdemo.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,20 +11,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.david.zhumingwei.chartsdemo.R;
-import lecho.lib.hellocharts.gesture.ZoomType;
-import lecho.lib.hellocharts.listener.ColumnChartOnValueSelectListener;
-import lecho.lib.hellocharts.model.Axis;
-import lecho.lib.hellocharts.model.AxisValue;
-import lecho.lib.hellocharts.model.Column;
-import lecho.lib.hellocharts.model.ColumnChartData;
-import lecho.lib.hellocharts.model.Line;
-import lecho.lib.hellocharts.model.LineChartData;
-import lecho.lib.hellocharts.model.PointValue;
-import lecho.lib.hellocharts.model.SubcolumnValue;
-import lecho.lib.hellocharts.model.Viewport;
-import lecho.lib.hellocharts.util.ChartUtils;
-import lecho.lib.hellocharts.view.ColumnChartView;
-import lecho.lib.hellocharts.view.LineChartView;
+import cn.david.zhumingwei.mylibrary.gesture.ZoomType;
+import cn.david.zhumingwei.mylibrary.listener.ColumnChartOnValueSelectListener;
+import cn.david.zhumingwei.mylibrary.model.Axis;
+import cn.david.zhumingwei.mylibrary.model.AxisValue;
+import cn.david.zhumingwei.mylibrary.model.Column;
+import cn.david.zhumingwei.mylibrary.model.ColumnChartData;
+import cn.david.zhumingwei.mylibrary.model.Line;
+import cn.david.zhumingwei.mylibrary.model.LineChartData;
+import cn.david.zhumingwei.mylibrary.model.PointValue;
+import cn.david.zhumingwei.mylibrary.model.SubcolumnValue;
+import cn.david.zhumingwei.mylibrary.model.Viewport;
+import cn.david.zhumingwei.mylibrary.util.ChartUtils;
+import cn.david.zhumingwei.mylibrary.view.ColumnChartView;
+import cn.david.zhumingwei.mylibrary.view.LineChartView;
 
 public class LineColumnDependencyActivity extends AppCompatActivity {
 

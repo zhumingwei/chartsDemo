@@ -12,14 +12,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.david.zhumingwei.chartsdemo.R;
-import lecho.lib.hellocharts.formatter.SimpleAxisValueFormatter;
-import lecho.lib.hellocharts.model.Axis;
-import lecho.lib.hellocharts.model.Line;
-import lecho.lib.hellocharts.model.LineChartData;
-import lecho.lib.hellocharts.model.PointValue;
-import lecho.lib.hellocharts.model.Viewport;
-import lecho.lib.hellocharts.util.ChartUtils;
-import lecho.lib.hellocharts.view.LineChartView;
+import cn.david.zhumingwei.mylibrary.formatter.SimpleAxisValueFormatter;
+import cn.david.zhumingwei.mylibrary.model.Axis;
+import cn.david.zhumingwei.mylibrary.model.Line;
+import cn.david.zhumingwei.mylibrary.model.LineChartData;
+import cn.david.zhumingwei.mylibrary.model.PointValue;
+import cn.david.zhumingwei.mylibrary.model.Viewport;
+import cn.david.zhumingwei.mylibrary.util.ChartUtils;
+import cn.david.zhumingwei.mylibrary.view.LineChartView;
 
 public class SpeedChartActivity extends ActionBarActivity {
 

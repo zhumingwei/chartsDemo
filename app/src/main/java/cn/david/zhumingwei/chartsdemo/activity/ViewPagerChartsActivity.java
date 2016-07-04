@@ -17,26 +17,26 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.david.zhumingwei.chartsdemo.R;
-import lecho.lib.hellocharts.gesture.ContainerScrollType;
-import lecho.lib.hellocharts.gesture.ZoomType;
-import lecho.lib.hellocharts.model.Axis;
-import lecho.lib.hellocharts.model.BubbleChartData;
-import lecho.lib.hellocharts.model.BubbleValue;
-import lecho.lib.hellocharts.model.Column;
-import lecho.lib.hellocharts.model.ColumnChartData;
-import lecho.lib.hellocharts.model.Line;
-import lecho.lib.hellocharts.model.LineChartData;
-import lecho.lib.hellocharts.model.PieChartData;
-import lecho.lib.hellocharts.model.PointValue;
-import lecho.lib.hellocharts.model.SliceValue;
-import lecho.lib.hellocharts.model.SubcolumnValue;
-import lecho.lib.hellocharts.model.Viewport;
-import lecho.lib.hellocharts.util.ChartUtils;
-import lecho.lib.hellocharts.view.BubbleChartView;
-import lecho.lib.hellocharts.view.ColumnChartView;
-import lecho.lib.hellocharts.view.LineChartView;
-import lecho.lib.hellocharts.view.PieChartView;
-import lecho.lib.hellocharts.view.PreviewLineChartView;
+import cn.david.zhumingwei.mylibrary.gesture.ContainerScrollType;
+import cn.david.zhumingwei.mylibrary.gesture.ZoomType;
+import cn.david.zhumingwei.mylibrary.model.Axis;
+import cn.david.zhumingwei.mylibrary.model.BubbleChartData;
+import cn.david.zhumingwei.mylibrary.model.BubbleValue;
+import cn.david.zhumingwei.mylibrary.model.Column;
+import cn.david.zhumingwei.mylibrary.model.ColumnChartData;
+import cn.david.zhumingwei.mylibrary.model.Line;
+import cn.david.zhumingwei.mylibrary.model.LineChartData;
+import cn.david.zhumingwei.mylibrary.model.PieChartData;
+import cn.david.zhumingwei.mylibrary.model.PointValue;
+import cn.david.zhumingwei.mylibrary.model.SliceValue;
+import cn.david.zhumingwei.mylibrary.model.SubcolumnValue;
+import cn.david.zhumingwei.mylibrary.model.Viewport;
+import cn.david.zhumingwei.mylibrary.util.ChartUtils;
+import cn.david.zhumingwei.mylibrary.view.BubbleChartView;
+import cn.david.zhumingwei.mylibrary.view.ColumnChartView;
+import cn.david.zhumingwei.mylibrary.view.LineChartView;
+import cn.david.zhumingwei.mylibrary.view.PieChartView;
+import cn.david.zhumingwei.mylibrary.view.PreviewLineChartView;
 
 public class ViewPagerChartsActivity extends ActionBarActivity implements ActionBar.TabListener {
 

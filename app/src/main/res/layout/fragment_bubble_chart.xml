@@ -8,10 +8,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="lecho.lib.hellocharts.samples.BubbleChartActivity$PlaceholderFragment" >
 
-    <lecho.lib.hellocharts.view.BubbleChartView
+    <cn.david.zhumingwei.mylibrary.view.BubbleChartView
         android:id="@+id/chart"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
-    </lecho.lib.hellocharts.view.BubbleChartView>
+    </cn.david.zhumingwei.mylibrary.view.BubbleChartView>
 
 </RelativeLayout>

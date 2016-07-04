@@ -16,12 +16,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cn.david.zhumingwei.chartsdemo.R;
-import lecho.lib.hellocharts.listener.PieChartOnValueSelectListener;
-import lecho.lib.hellocharts.model.PieChartData;
-import lecho.lib.hellocharts.model.SliceValue;
-import lecho.lib.hellocharts.util.ChartUtils;
-import lecho.lib.hellocharts.view.Chart;
-import lecho.lib.hellocharts.view.PieChartView;
+import cn.david.zhumingwei.mylibrary.listener.PieChartOnValueSelectListener;
+import cn.david.zhumingwei.mylibrary.model.PieChartData;
+import cn.david.zhumingwei.mylibrary.model.SliceValue;
+import cn.david.zhumingwei.mylibrary.util.ChartUtils;
+import cn.david.zhumingwei.mylibrary.view.PieChartView;
 
 public class PieChartActivity extends ActionBarActivity {
 
